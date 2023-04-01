@@ -6,7 +6,7 @@ from preprocess import preprocessor
 import os
 
 model = whisper.load_model('base')
-api_key=api_key = st.secrets["key"]
+api_key = st.secrets["api_key"]
 openai.api_key=api_key
 
 def summarize_video(url):
