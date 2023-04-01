@@ -1,7 +1,6 @@
 openai-whisper
 numpy==1.20.3
 openai
-import subprocess
 streamlit==1.20.0
 pytube==12.1.3
 ffmpeg-python==0.2.0
