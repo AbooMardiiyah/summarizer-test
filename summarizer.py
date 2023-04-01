@@ -5,6 +5,7 @@ import whisper
 from preprocess import preprocessor
 import os
 import ffmpeg
+import subprocess
 
 model = whisper.load_model('base')
 api_key = st.secrets["api_key"]
