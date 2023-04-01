@@ -2,6 +2,8 @@
 
 import pytube
 from pytube import YouTube
+import ffmpeg
+import subprocess
 
 def preprocessor(url):
   vid_url=YouTube(url)
